@@ -19,4 +19,9 @@ int main (){
     float pib2;
     int pontosTur2;
 
+    printf("--- INSIRA AS INFORMAÇÕES DA CARTA 1 ---\n");
+    printf("Estado (A a H): ");
+    scanf(" %c", estado1);
+    
+
 }
