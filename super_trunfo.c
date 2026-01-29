@@ -22,36 +22,36 @@ int main (){
     //Entrada de dados carta 1
     printf("--- INSIRA AS INFORMAÇÕES DA CARTA 1 ---\n");
     printf("Estado (A a H): ");
-    scanf(" %c", &estado1);
+    scanf("%c", &estado1);
     printf("Código da carta (A01, B03): ");
-    scanf(" %s", codigo1);
+    scanf("%s", codigo1);
     printf("Nome da cidade: ");
-    scanf(" %s", cidade1);
+    scanf("%s", cidade1);
     printf("População: ");
-    scanf(" %d", &populacao1);
+    scanf("%d", &populacao1);
     printf("Área: ");
-    scanf(" %f", &area1);
+    scanf("%f", &area1);
     printf("PIB: ");
-    scanf(" %f", &pib1);
+    scanf("%f", &pib1);
     printf("Número de Pontos Turísticos: ");
-    scanf(" %d", &pontosTur1);
+    scanf("%d", &pontosTur1);
     
     //Entrada de dados carta 2
     printf("\n--- INSIRA AS INFORMAÇÕES DA CARTA 2 ---\n");
     printf("Estado (A a H): ");
-    scanf(" %c", &estado2);
+    scanf("%c", &estado2);
     printf("Código da carta (A01, B03): ");
-    scanf(" %s", codigo2);
+    scanf("%s", codigo2);
     printf("Nome da cidade: ");
-    scanf(" %s", cidade2);
+    scanf("%s", cidade2);
     printf("População: ");
-    scanf(" %d", &populacao2);
+    scanf("%d", &populacao2);
     printf("Área: ");
-    scanf(" %f", &area2);
+    scanf("%f", &area2);
     printf("PIB: ");
-    scanf(" %f", &pib2);
+    scanf("%f", &pib2);
     printf("Número de Pontos Turísticos: ");
-    scanf(" %d", &pontosTur2);
+    scanf("%d", &pontosTur2);
     
     printf("\n-----------------------------\n");
     printf("CARTA 1\n");
@@ -73,4 +73,5 @@ int main (){
     printf("PIB: %.2f bilhões de reais\n", pib2);
     printf("Número de Pontos Turísticos: %d\n", pontosTur2);
     
+    return 0;
 }
