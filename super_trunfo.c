@@ -22,7 +22,7 @@ int main (){
     //Entrada de dados carta 1
     printf("--- INSIRA AS INFORMAÇÕES DA CARTA 1 ---\n");
     printf("Estado (A a H): ");
-    scanf("%c", &estado1);
+    scanf(" %c", &estado1);
     printf("Código da carta (A01, B03): ");
     scanf("%s", codigo1);
     printf("Nome da cidade: ");
@@ -39,7 +39,7 @@ int main (){
     //Entrada de dados carta 2
     printf("\n--- INSIRA AS INFORMAÇÕES DA CARTA 2 ---\n");
     printf("Estado (A a H): ");
-    scanf("%c", &estado2);
+    scanf(" %c", &estado2);
     printf("Código da carta (A01, B03): ");
     scanf("%s", codigo2);
     printf("Nome da cidade: ");
